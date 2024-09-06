@@ -1,0 +1,12 @@
+android_app_import {
+	name: "GCamBSG",
+	owner: "google",
+	apk: "GCamBSG.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Camera2", "GCamGOPrebuilt-V2", "GCamGOPrebuilt-V3", "Snap"],
+}
