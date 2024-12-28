@@ -23,8 +23,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
-PRODUCT_PACKAGES += \
-    GCamBSG
+#PRODUCT_PACKAGES += \
+#    GCamBSG
 
 # Permissions
 PRODUCT_COPY_FILES += \
